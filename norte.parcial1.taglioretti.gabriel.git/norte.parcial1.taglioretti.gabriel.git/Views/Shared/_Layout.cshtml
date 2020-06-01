@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Vida en Otros Planetas</title>
+    <link href="~/Content/site.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="container">
+
+        <section>
+            <article>
+                @RenderBody()
+            </article>
+        </section>
+
+        <aside>
+            <article>
+                <div>
+                    <h3>Contenido Relacionado</h3>
+                    <div>
+                        <ul>      
+                        </ul>
+                    </div>
+                </div>
+            </article>
+        </aside>
+
+        <footer>
+            <p>¿Hay Vida en Otros Planetas? - &copy; @DateTime.Now.Year </p>
+        </footer>
+
+    </div>
+</body>
+</html>

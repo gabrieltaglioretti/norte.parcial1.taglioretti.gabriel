@@ -1,0 +1,21 @@
+﻿body {
+}
+
+#container {
+    width: 900px;
+    margin: 0px auto;
+}
+
+section {
+    float: right;
+}
+
+aside {
+    float: left;
+    min-height: 760px;
+}
+
+footer {
+    text-align: center;
+    clear: both;
+}
